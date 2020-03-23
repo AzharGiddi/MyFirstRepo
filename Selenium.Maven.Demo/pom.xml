@@ -34,15 +34,14 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-					<fork>true</fork>
-                <executable>C:\Program Files\Java\jdk1.8.0_241\bin\javac.exe</executable>
+
 				</configuration>
 			</plugin>
 			<plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>3.1.0</version>
-      </plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.1.0</version>
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
