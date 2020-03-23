@@ -3,7 +3,9 @@
 <suite name="Suite1" verbose="1" >
   <test name="Nopackage" >
     <classes>
-       <class name="PracticePackage.*" />
+       <class name="PracticePackage.MyClass" />
+       <class name="PracticePackage.MyClass1" />
+       <class name="PracticePackage.MyClass2" />
     </classes>
   </test>
  
